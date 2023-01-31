@@ -39,8 +39,8 @@ const Navbar = () => {
 	const primaryLight = theme.palette.primary.light;
 	const alt = theme.palette.background.alt;
 
-	const fullName = "Berke Topçu";
-	//const fullName = `${user.firstName} ${user.lastName}`;
+	//const fullName = "Berke Topçu";
+	const fullName = `${user.firstName} ${user.lastName}`;
 
 	return (
 		<FlexBetween padding="1rem 6%" backgroundColor={alt}>
@@ -56,7 +56,7 @@ const Navbar = () => {
 							cursor: "pointer",
 						},
 					}}>
-					"Social App"
+					Social App
 				</Typography>
 				{isNonMobileScreens && (
 					<FlexBetween
